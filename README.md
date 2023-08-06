@@ -1,10 +1,7 @@
 # flutter_todolist_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
+Practice with Database in Flutter
+Example with To Do List Project
 
 A few resources to get you started if this is your first Flutter project:
 
