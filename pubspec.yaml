@@ -46,6 +46,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   provider: ^6.0.5
+  sqflite: ^2.3.0
+  path: ^1.6.2
 
   flutter_lints: ^2.0.0
 

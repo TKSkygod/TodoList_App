@@ -4,8 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_todolist_app/bloc/todo_bloc.dart';
 import 'todo/todo_list_container.dart';
 import 'package:provider/provider.dart';
+import 'database/todo_database.dart';
 
-void main() => runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await TodoDatabase.instance.init();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
